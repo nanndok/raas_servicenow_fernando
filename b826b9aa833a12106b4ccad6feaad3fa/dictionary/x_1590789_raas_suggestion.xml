@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="737962b283f612106b4ccad6feaad359" extends="task" label="Suggestion" max_length="40" name="x_1590789_raas_suggestion" type="collection">
+        <element label="Release Date" max_length="4" name="release_date" type="string"/>
+        <element label="Title" max_length="250" name="title" type="string"/>
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Media" max_length="32" name="media" reference="x_1590789_raas_media" type="reference"/>
+    </element>
+</database>
