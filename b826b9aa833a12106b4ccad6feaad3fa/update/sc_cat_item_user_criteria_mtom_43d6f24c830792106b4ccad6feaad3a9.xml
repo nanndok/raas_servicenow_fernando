@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Media Review">6ad77577837e12106b4ccad6feaad3da</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 17:21:03</sys_created_on>
+        <sys_id>43d6f24c830792106b4ccad6feaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Media Review.RaaS - Users</sys_name>
+        <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_43d6f24c830792106b4ccad6feaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 17:21:03</sys_updated_on>
+        <user_criteria display_value="RaaS - Users">06e6364c830792106b4ccad6feaad391</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>
