@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="approver_user" name="approver_user">debab85bff02110053ccffffffffffb6</contains>
+        <role display_value="x_1590789_raas.administrator" name="x_1590789_raas.administrator">4d26f9aa833a12106b4ccad6feaad324</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-07 18:42:10</sys_created_on>
+        <sys_id>4adc4308838792106b4ccad6feaad36c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approver_user.x_1590789_raas.administrator</sys_name>
+        <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
+        <sys_update_name>sys_user_role_contains_4adc4308838792106b4ccad6feaad36c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-07 18:42:10</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
