@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>movie_average_rating</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>400</order>
+        <order>140</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-06 19:56:27</sys_created_on>
         <sys_id>10441e7783fe12106b4ccad6feaad398</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Average Rating:</sys_name>
         <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
         <sys_update_name>item_option_new_10441e7783fe12106b4ccad6feaad398</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-06 20:10:59</sys_updated_on>
+        <sys_updated_on>2025-01-08 13:15:56</sys_updated_on>
         <table/>
         <tooltip>Tooltip</tooltip>
         <topic_block/>
