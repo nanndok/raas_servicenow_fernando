@@ -58,7 +58,7 @@
             <element>type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Serie</label>
+            <label>Series</label>
             <language>en</language>
             <name>x_1590789_raas_media</name>
             <sequence>2</sequence>
@@ -67,10 +67,10 @@
             <sys_created_on>2025-01-03 14:28:36</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 14:28:36</sys_updated_on>
-            <value>serie</value>
+            <sys_updated_on>2025-01-10 17:58:43</sys_updated_on>
+            <value>series</value>
         </sys_choice>
     </sys_choice>
 </record_update>

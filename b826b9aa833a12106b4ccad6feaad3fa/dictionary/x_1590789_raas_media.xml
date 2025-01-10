@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d70aadb683b212106b4ccad6feaad39d" label="Media" max_length="40" name="x_1590789_raas_media" type="collection">
         <element default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element label="Genre" max_length="1024" name="genre" reference="x_1590789_raas_genre" type="glide_list"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Serie" sequence="2" value="serie"/>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
                 <element inactive_on_update="false" label="Episode" sequence="0" value="episode"/>
                 <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
             </choice>
@@ -22,5 +24,20 @@
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
         <element label="Category" max_length="40" name="category" type="string"/>
         <element label="Website" max_length="1000" name="website" type="url"/>
+        <element choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Integration Success" sequence="400" value="3"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="300" value="4"/>
+                <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Media not Found" sequence="500" value="7"/>
+                <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
+            </choice>
+        </element>
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
+            </choice>
+        </element>
     </element>
 </database>
