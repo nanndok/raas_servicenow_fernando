@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="release_date" label="Release Date" language="en" table="x_1590789_raas_suggestion">
+    <sys_documentation element="release_date" label="Release Year" language="en" table="x_1590789_raas_suggestion">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>release_date</element>
             <help/>
             <hint/>
-            <label>Release Date</label>
+            <label>Release Year</label>
             <language>en</language>
             <name>x_1590789_raas_suggestion</name>
-            <plural/>
+            <plural>Release Years</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-03 18:57:53</sys_created_on>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_name>Release Date</sys_name>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>Release Year</sys_name>
             <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
             <sys_policy/>
             <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
             <sys_update_name>sys_documentation_x_1590789_raas_suggestion_release_date_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-03 18:57:55</sys_updated_on>
+            <sys_updated_on>2025-01-13 20:59:12</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

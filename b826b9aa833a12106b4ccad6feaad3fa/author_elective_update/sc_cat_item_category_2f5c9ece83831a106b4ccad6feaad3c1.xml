@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Media Suggestion">547c520283c31a106b4ccad6feaad37b</sc_cat_item>
+        <sc_category display_value="RaaS">e5c33533837e12106b4ccad6feaad367</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:20:11</sys_created_on>
+        <sys_id>2f5c9ece83831a106b4ccad6feaad3c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaaS.Media Suggestion</sys_name>
+        <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
+        <sys_update_name>sc_cat_item_category_2f5c9ece83831a106b4ccad6feaad3c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:20:11</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</application>
+        <file_path/>
+        <instance_id>908648a61b4dce1819254089bd4bcb5d</instance_id>
+        <instance_name>dev248733</instance_name>
+        <name>sc_cat_item_category_2f5c9ece83831a106b4ccad6feaad3c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Media Suggestion">547c520283c31a106b4ccad6feaad37b</sc_cat_item><sc_category display_value="RaaS">e5c33533837e12106b4ccad6feaad367</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-13 20:20:11</sys_created_on><sys_id>2f5c9ece83831a106b4ccad6feaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>RaaS.Media Suggestion</sys_name><sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package><sys_policy/><sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope><sys_update_name>sc_cat_item_category_2f5c9ece83831a106b4ccad6feaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-13 20:20:11</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-751977325</payload_hash>
+        <record_name>RaaS.Media Suggestion</record_name>
+        <reverted_from/>
+        <source>4fb9b0bf83b212106b4ccad6feaad354</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:20:11</sys_created_on>
+        <sys_id>54dc5a0283c31a106b4ccad6feaad3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946152ec4a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:20:11</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>58dc5a0262c31a106d9b522725a309b1</update_guid>
+        <update_guid_history>58dc5a0262c31a106d9b522725a309b1:-751977325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="RaaS.Media Suggestion">1fffd24683c31a106b4ccad6feaad359</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-13 20:34:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>0d9c737b68db4540a6538a9e17b4d900</sys_id>
+        <sys_metadata>2f5c9ece83831a106b4ccad6feaad3c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RaaS.Media Suggestion</sys_name>
+        <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
+        <sys_scope_delete display_value="">2539771ddf0048308afa67e3ff2e1c10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_2f5c9ece83831a106b4ccad6feaad3c1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_2f5c9ece83831a106b4ccad6feaad3c1">54dc5a0283c31a106b4ccad6feaad3b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-13 20:34:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
