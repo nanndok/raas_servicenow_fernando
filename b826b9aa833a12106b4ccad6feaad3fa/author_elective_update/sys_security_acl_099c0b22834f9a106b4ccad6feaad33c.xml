@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to table="x_1590789_raas_m2m_actor_media.*">x_1590789_raas_media.state=1^x_1590789_raas_media.integration_state!=4^x_1590789_raas_media.integration_state!=7^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </applies_to>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Allow write for all fields in x_1590789_raas_m2m_actor_media if the record matches the criteria (x_1590789_raas_media.state=1^x_1590789_raas_media.integration_state!=4^x_1590789_raas_media.integration_state!=7^EQ), for users with role x_1590789_raas.administrator.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1590789_raas_m2m_actor_media.*</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:08:34</sys_created_on>
+        <sys_id>099c0b22834f9a106b4ccad6feaad33c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_1590789_raas_m2m_actor_media.*</sys_name>
+        <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
+        <sys_update_name>sys_security_acl_099c0b22834f9a106b4ccad6feaad33c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:50:26</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</application>
+        <file_path/>
+        <instance_id>908648a61b4dce1819254089bd4bcb5d</instance_id>
+        <instance_name>dev248733</instance_name>
+        <name>sys_security_acl_099c0b22834f9a106b4ccad6feaad33c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to table="x_1590789_raas_m2m_actor_media.*">x_1590789_raas_media.state=1^x_1590789_raas_media.integration_state!=4^x_1590789_raas_media.integration_state!=7^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></applies_to><condition/><decision_type>allow</decision_type><description>Allow write for all fields in x_1590789_raas_m2m_actor_media if the record matches the criteria (x_1590789_raas_media.state=1^x_1590789_raas_media.integration_state!=4^x_1590789_raas_media.integration_state!=7^EQ), for users with role x_1590789_raas.administrator.</description><local_or_existing>Local</local_or_existing><name>x_1590789_raas_m2m_actor_media.*</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-15 13:08:34</sys_created_on><sys_id>099c0b22834f9a106b4ccad6feaad33c</sys_id><sys_mod_count>8</sys_mod_count><sys_name>x_1590789_raas_m2m_actor_media.*</sys_name><sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package><sys_policy/><sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope><sys_update_name>sys_security_acl_099c0b22834f9a106b4ccad6feaad33c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-15 13:50:26</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>300305454</payload_hash>
+        <record_name>x_1590789_raas_m2m_actor_media.*</record_name>
+        <reverted_from/>
+        <source>4fb9b0bf83b212106b4ccad6feaad354</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 13:50:27</sys_created_on>
+        <sys_id>7ec6db6e834f9a106b4ccad6feaad31a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1946a3ad2740000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 13:50:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>e2c6db6e3b4f9a10827eba9e418d341a</update_guid>
+        <update_guid_history>e2c6db6e3b4f9a10827eba9e418d341a:300305454,9126176e124f9a1007bae89097c2e0e8:-681880897,cc95db2e604f9a10e59ae574ca3d152c:-804374984,764513ea524f9a106ad1fac35069387c:-681880897,c3445baa0e4f9a1094c429f2aeaecacb:129201372,ccc313aa8e4f9a108243f8ed2a25efe0:593617870,5e43576a924f9a106d89dc23f9ebf52f:1290219591,55bd4f62794f9a102e1ae44fa1d4e406:593617870,d93d4b22014f9a109914b8f870a7afb5:13020598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-15 14:06:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>00fda42eb02049268008c48e3d8ae084</sys_id>
+        <sys_metadata>099c0b22834f9a106b4ccad6feaad33c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1590789_raas_m2m_actor_media.*</sys_name>
+        <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
+        <sys_parent display_value="x_1590789_raas_m2m_actor_media">269ff67e833a12106b4ccad6feaad372</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
+        <sys_scope_delete display_value="">2539771ddf0048308afa67e3ff2e1c10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_099c0b22834f9a106b4ccad6feaad33c</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_099c0b22834f9a106b4ccad6feaad33c">7ec6db6e834f9a106b4ccad6feaad31a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-15 14:06:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
