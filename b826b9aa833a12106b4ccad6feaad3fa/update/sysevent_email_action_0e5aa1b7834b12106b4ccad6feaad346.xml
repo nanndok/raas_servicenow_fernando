@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Raas" name="Raas">9b4c7b54834712106b4ccad6feaad345</category>
-        <collection>x_1590789_raas_media</collection>
+        <collection>x_1590789_raas_review</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -36,39 +36,41 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>The ${type} ${title} failed to integrate.</p>
-<p>The error was: ${integration_error_message}</p>
-<p>Please, check the media to see more about this error.<br><a href="/now/nav/ui/classic/params/target/x_1590789_raas_media.do%3Fsys_id=${sys_id}">Click Here</a></p>]]></message_html>
+        <message_html><![CDATA[<p>Hello ${opened_by.first_name}</p>
+<p>Thank you for your review for the ${media.type} ${media.title}.</p>
+<p>It is <strong>approved.</strong></p>
+<p><img style="width: 300px;" src="${media.poster}"></p>
+<p>If you want to send more reviews, click <a href="/sp?id=sc_cat_item&amp;sys_id=6ad77577837e12106b4ccad6feaad3da&amp;sysparm_category=e5c33533837e12106b4ccad6feaad367">here</a></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Media Integration Failure</name>
+        <name>Review Approved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
-        <recipient_groups name="RaaS Administrator">3c57f12e833a12106b4ccad6feaad378</recipient_groups>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${title} - Media Integration Failure</subject>
+        <subject>${number} - ${media.title} - Review Approved</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-08 17:02:46</sys_created_on>
+        <sys_created_on>2025-01-19 03:09:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1ceb7354834712106b4ccad6feaad349</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Media Integration Failure</sys_name>
+        <sys_id>0e5aa1b7834b12106b4ccad6feaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Review Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
         <sys_policy/>
         <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
-        <sys_update_name>sysevent_email_action_1ceb7354834712106b4ccad6feaad349</sys_update_name>
+        <sys_update_name>sysevent_email_action_0e5aa1b7834b12106b4ccad6feaad346</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-19 03:06:29</sys_updated_on>
+        <sys_updated_on>2025-01-19 03:09:02</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

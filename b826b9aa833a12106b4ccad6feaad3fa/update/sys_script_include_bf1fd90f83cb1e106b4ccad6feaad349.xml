@@ -1,35 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
-        <api_name>x_1590789_raas.RaasUtils</api_name>
+        <api_name>x_1590789_raas.RaaSUtils</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
         <mobile_callable>false</mobile_callable>
-        <name>RaasUtils</name>
+        <name>RaaSUtils</name>
         <sandbox_callable>false</sandbox_callable>
-        <script><![CDATA[var RaasUtils = Class.create();
-RaasUtils.prototype = {
+        <script><![CDATA[var RaaSUtils = Class.create();
+RaaSUtils.prototype = {
     initialize: function() {
     },
-	refQualMedia: function(){
-		
-	},
-    type: 'RaasUtils'
+    refQualMedia: function() {
+
+        var moviesNotToBeShown = [];
+ 
+        var grReview = new GlideRecord("x_1590789_raas_review");
+        grReview.addEncodedQuery("opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state!=4");
+        grReview.query();
+        while(grReview.next()) {
+            moviesNotToBeShown.push(grReview.media.sys_id.toString());
+        }
+
+        var moviesToBeShown = [];
+        var grMedias = new GlideRecord("x_1590789_raas_media");
+        grMedias.addQuery("state", "3");
+        grMedias.query();
+        while(grMedias.next()) {
+            if(moviesNotToBeShown.indexOf(grMedias.getUniqueValue()) == -1) {
+                moviesToBeShown.push(grMedias.getUniqueValue());
+            }
+        }
+ 
+        return "sys_idIN" + moviesToBeShown.join(",");
+    },
+    type: 'RaaSUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-16 20:55:45</sys_created_on>
         <sys_id>bf1fd90f83cb1e106b4ccad6feaad349</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>RaasUtils</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>RaaSUtils</sys_name>
         <sys_package display_value="RaaS - Fernando" source="x_1590789_raas">b826b9aa833a12106b4ccad6feaad3fa</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="RaaS - Fernando">b826b9aa833a12106b4ccad6feaad3fa</sys_scope>
         <sys_update_name>sys_script_include_bf1fd90f83cb1e106b4ccad6feaad349</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-16 20:55:45</sys_updated_on>
+        <sys_updated_on>2025-01-19 02:05:12</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>bf1fd90f83cb1e106b4ccad6feaad349</id>
